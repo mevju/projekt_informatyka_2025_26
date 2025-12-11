@@ -1,7 +1,8 @@
-﻿  GameState.cpp
+﻿  Game.cpp
+  GameState.cpp
   Trwa generowanie kodu
-  1 of 513 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  0 of 513 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
   Gra.vcxproj -> C:\projekt_informatyka_2025_26\Gra\x64\Release\Gra.exe

@@ -28,7 +28,9 @@ Menu::Menu(float width, float height)
 void Menu::draw(sf::RenderWindow& window)
 {
     for (int i = 0; i < MAX_ITEMS; i++)
+    {
         window.draw(menu[i]);
+    }
 }
 
 void Menu::moveUp()

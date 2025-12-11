@@ -14,7 +14,7 @@ Game::Game()
 void Game::generujCegly()
 {
     m_cegly.clear();
-
+    //cegly
     const int wiersze = 5;
     const int kolumny = 8;
     float windowWidth = 800.f;

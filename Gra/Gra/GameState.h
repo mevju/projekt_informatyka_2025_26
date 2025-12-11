@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 
-struct BlockData
+struct CEGLYData
 {
     float x, y;
     int hp;
@@ -19,7 +19,7 @@ class GameState
         sf::Vector2f platformaPosition;
         sf::Vector2f pilkaPosition;
         sf::Vector2f pilkaVelocity;
-        std::vector<BlockData> blocks;
+        std::vector<CEGLYData> CEGLY;
 
         GameState() = default;
         void capture(const Platforma& platforma,
