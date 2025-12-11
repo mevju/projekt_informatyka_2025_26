@@ -34,7 +34,7 @@ bool GameState::saveToFile(const std::string& filename) const
     file <<"Paletka "<< platformaPosition.x <<" "<< platformaPosition.y << "\n";
     file <<"Pilka "<< pilkaPosition.x <<" "<< pilkaPosition.y << " "
         << pilkaVelocity.x <<" "<< pilkaVelocity.y << "\n";
-    file <<"BLOCKS_COUNT "<< blocks.size() << "\n";
+    file <<"Cegly_COUNT "<< blocks.size() << "\n";
 
     for (const auto& b : blocks)
         file << b.x << " " << b.y << " " << b.hp << "\n";
